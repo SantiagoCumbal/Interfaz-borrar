@@ -39,6 +39,7 @@ public class form2 {
                     pstmt2.setString(2,cedulaT.getText());
                     pstmt1.executeUpdate();
                     pstmt2.executeUpdate();
+                    if(cedulaT.getText() in)
                     mensaje.setText("Datos actualizados");
 
 
